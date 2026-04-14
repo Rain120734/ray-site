@@ -12,10 +12,12 @@ export default function Navbar() {
           Ray<span className="text-cyan-700">.</span>
         </Link>
         <div className="flex gap-6">
-          <Link href="/portfolio" className="text-brand-900 hover:text-white transition-colors">Portfolio</Link>
-          <Link href="/notes" className="text-brand-900 hover:text-white transition-colors">Notes</Link>
-          <Link href="/blog" className="text-brand-900 hover:text-white transition-colors">Blog</Link>
-          <Link href="/contact" className="text-brand-900 hover:text-white transition-colors">Contact</Link>
+          <Link href="/portfolio" className="text-gray-400 hover:text-white transition-colors">Portfolio</Link>
+          <Link href="/leadership" className="text-gray-400 hover:text-white transition-colors">Leadership</Link>
+          <Link href="/notes" className="text-gray-400 hover:text-white transition-colors">Notes</Link>
+          <Link href="/blog" className="text-gray-400 hover:text-white transition-colors">Blog</Link>
+          <Link href="/photos" className="text-gray-400 hover:text-white transition-colors">Photos</Link>
+          <Link href="/videos" className="text-gray-400 hover:text-white transition-colors">Videos</Link>
         </div>
       </div>
     </nav>
