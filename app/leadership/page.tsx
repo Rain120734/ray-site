@@ -1,10 +1,13 @@
 
 const activities = [
   { icon: '🤖', title: 'FTC Team Captain', org: 'VIS Mars #32760',
-    period: '2024 - Present',
+    period: ' - Present',
     desc: 'Led a 10-member team in designing and building competition robots.' },
   { icon: '🔬', title: 'Science Fair', org: 'VIS Science Department',
-    period: '2023 - 2024',
+    period: ' - Present',
+    desc: 'Conducted research on renewable energy solutions.' },
+  { icon: '🔬', title: 'Science', org: 'VIS Science Department',
+    period: ' - Present',
     desc: 'Conducted research on renewable energy solutions.' },
 ]
 

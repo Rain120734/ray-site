@@ -10,7 +10,7 @@ export default function Home() {
             Hi, I&apos;m <span className="text-cyan-400">Ray</span>
           </h1>
           <p className="text-xl text-gray-400 mb-8">
-            Builder · Coder · Robotics Enthusiast
+            Coder · Robotics Enthusiast
           </p>
         </div>
       </section>
