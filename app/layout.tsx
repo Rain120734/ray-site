@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ray — Builder · Coder · Robotics",
-  description: "Ray's personal website — portfolio, leadership, notes, and more.",
+  title: "Ray — Coder · Robotics",
+  description: "Ray's personal website. Welcome to my personal website where I share my projects, leadership experiences, and notes on robotics and programming.",
 };
 
 export default function RootLayout({
