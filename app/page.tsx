@@ -51,7 +51,7 @@ export default function Home() {
           />
           <Card
             icon="🎬"
-            title="Videos-Test"
+            title="Videos"
             description="My video collection"
             href="/videos"
           />
