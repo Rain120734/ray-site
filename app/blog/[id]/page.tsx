@@ -57,7 +57,7 @@ export default async function BlogPostPage({ params }: { params: { id: string } 
       
       <div className="mt-16 pt-8 border-t border-gray-800 text-center flex flex-col items-center">
          <p className="text-gray-500 mb-4 text-sm">This is a mirrored copy. View the original post to see comments and interactions.</p>
-         <a href={`https://mars32760ray.pixnet.net/blog/post/${resolvedParams.id}`} target="_blank" rel="noreferrer" className="inline-flex items-center space-x-2 text-sm text-gray-400 hover:text-white transition-colors bg-gray-900 px-6 py-3 rounded-full border border-gray-800 hover:border-gray-600 shadow-md">
+         <a href={`https://mars32760ray.pixnet.net/blog/posts/${resolvedParams.id}`} target="_blank" rel="noreferrer" className="inline-flex items-center space-x-2 text-sm text-gray-400 hover:text-white transition-colors bg-gray-900 px-6 py-3 rounded-full border border-gray-800 hover:border-gray-600 shadow-md">
             <span>Read on Pixnet</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
          </a>
