@@ -63,11 +63,6 @@ export async function getBlogPostContent(id: string): Promise<string | null> {
       next: { revalidate: 3600 }
     });
     
-    // Pixnet URLs can be /blog/post/ID or /blog/posts/ID. 
-    // They both redirect to the real one, but usually /post/ or /posts/.
-    // The previous scrape showed /blog/posts/{ID}
-    const htmlUrl = res.url; 
-    
     const secondTry = !res.ok ? await fetch(`https://mars32760ray.pixnet.net/blog/posts/${id}`, {
       headers: { 'User-Agent': 'Mozilla/5.0' },
       next: { revalidate: 3600 }
@@ -78,10 +73,24 @@ export async function getBlogPostContent(id: string): Promise<string | null> {
     const html = await secondTry.text();
     const $ = cheerio.load(html);
     
-    // Attempt to extract the content inner
-    const contentHtml = $('.article-content-inner').html();
+    const contentArea = $('.article-content-inner');
     
-    // Sometimes images have lazyloading classes from Pixnet so we might need to remove them, but we'll try raw first 
+    // Clean up inline styles that force black text or white backgrounds from WYSIWYG
+    contentArea.find('*[style]').each((_, el) => {
+      $(el).css('color', '');
+      $(el).css('background-color', '');
+      $(el).css('background', '');
+      $(el).css('font-family', '');
+      $(el).css('font-size', '');
+      $(el).css('line-height', '');
+      
+      const styleAttr = $(el).attr('style');
+      if (styleAttr && styleAttr.trim() === '') {
+        $(el).removeAttr('style');
+      }
+    });
+
+    const contentHtml = contentArea.html();
     return contentHtml || null;
   } catch (error) {
     console.error(`Failed to fetch blog post ${id}:`, error);
