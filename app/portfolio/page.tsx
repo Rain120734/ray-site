@@ -1,12 +1,15 @@
 import ProjectCard from '@/components/ProjectCard'
 
 const projects = [
-  { id: 1, title: 'FTC Robot', description: '競賽機器人設計與程式開發',
-    tags: ['Robotics', 'Java'], image: '/images/robot.jpg' },
+  { id: 1, title: 'FTC Competition', description: '競賽機器人設計與程式開發',
+    tags: ['Robotics', 'Java', 'Leadership', 'Mechanics'], image: '/images/robot.jpg' },
   { id: 2, title: 'Personal Website', description: '用 Next.js 打造的個人網站',
-    tags: ['Next.js', 'React', 'Tailwind'], image: '/images/website.jpg' },
-  { id: 3, title: 'Space Catcher', description: 'Python + Pygame 小遊戲',
+    tags: ['Next.js', 'React', 'Tailwind'], image: '/images/website.png' },
+  { id: 3, title: 'iGEM Wet Lab', description: 'iGEM 競賽的生物實驗設計與執行',
+    tags: ['Biology', 'Wet Lab', 'Research'], image: '/images/iGEM.jpeg' },
+    { id: 4, title: 'Space Catcher', description: 'Python + Pygame 小遊戲',
     tags: ['Python', 'Pygame'], image: '/images/game.jpg' },
+
 ]
 
 export default function Portfolio() {
