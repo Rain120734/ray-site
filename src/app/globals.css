@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: var(--font-geist-sans), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  
+  --font-heading: 'Space Grotesk', var(--font-sans);
+  --font-body: 'Inter', var(--font-sans);
+
+  /* Brand Colors */
+  --color-brand-50: #ecfeff;
+  --color-brand-400: #22d3ee;
+  --color-brand-500: #06b6d4;
+  --color-brand-900: #ef007e;
+
+  /* Dark Colors */
+  --color-dark-900: #0a0a12;
+  --color-dark-800: #12121e;
+  --color-dark-700: #1a1a2e;
+}
+
