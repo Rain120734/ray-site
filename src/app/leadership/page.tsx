@@ -21,7 +21,7 @@ export default function Leadership() {
                                        border border-white/5">
             <span className="text-4xl">{a.icon}</span>
             <div>
-              <h3 className="text-lg font-semibold text-white">{a.title}</h3>
+              <h3 className="text-lg 5font-semibold text-white">{a.title}</h3>
               <p className="text-cyan-400 text-sm">{a.org} · {a.period}</p>
               <p className="text-gray-400 mt-2">{a.desc}</p>
             </div>
