@@ -62,7 +62,7 @@ export default function Portfolio() {
   return (
     <main className="max-w-6xl mx-auto px-6 py-24">
       <h1 className="text-4xl font-bold text-white mb-2">Portfolio</h1>
-      <p className="text-gray-400 mb-12">Projects I've built and contributed to.</p>
+      <p className="text-gray-400 mb-12">Projects I&apos;ve built and contributed to.</p>
 
       {/* Filter and Search Bar Container */}
       <div className="flex flex-col md:flex-row gap-6 justify-between items-start md:items-center mb-10">
