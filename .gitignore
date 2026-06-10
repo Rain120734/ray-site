@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Google Drive mapped photos
+/public/images/IMG_*.JPG
+/public/images/IMG_*.PNG
+/public/images/P10*.JPG
+/all_pairs.json
+/drive_files.json
+/drive_mappings.json
+/pairs.json
+/drive_page.html
