@@ -2,31 +2,31 @@ export default function Notes() {
   const notes = [
     {
       id: 1,
-      date: '2025-03-12',
+      date: '2026-05-28',
       title: 'FTC 賽季準備筆記 — 機構迭代與自動化控制',
       tags: ['FTC', 'Robotics', 'Java'],
       excerpt: '今天我們測試了新的雙馬達底盤，修正了左右行進時的慣性誤差。下午撰寫並調校了基於陀螺儀的自動化導航程式，目標是在前 30 秒自動化階段精準地夾取樣本並放置到籃架中。',
     },
     {
       id: 2,
-      date: '2025-02-28',
+      date: '2026-06-02',
       title: 'React 狀態管理深剖：Client Component 渲染機制',
       tags: ['React', 'Next.js', 'Web'],
       excerpt: '深入研究 useState 與 useEffect 的更新週期。學習到狀態更新是非同步的，如果要在狀態改變後立即處理副作用，應在 useEffect 的依賴陣列中指定該狀態，並確保適時清理 EventListener 以避免記憶體洩漏。',
     },
     {
       id: 3,
-      date: '2025-02-15',
+      date: '2026-05-24',
       title: 'iGEM Wet Lab 實驗手記 — DNA 載體構建與轉化驗證',
       tags: ['iGEM', 'Biology', 'Research'],
       excerpt: '本次實驗重點在於利用 EcoRI 與 PstI 雙酶切技術對質體進行切割，並使用 T4 DNA 連接酶將目的片段拼接到載體中。轉化至大腸桿菌 DH5α 後，成功在含有抗生素的瓊脂平板上篩選出轉化菌株。',
     },
     {
       id: 4,
-      date: '2025-01-20',
+      date: '2026-05-15',
       title: 'Pygame 遊戲中的物理引擎與碰撞偵測機制',
       tags: ['Python', 'Pygame', 'Game'],
-      excerpt: '在開發太空避障小遊戲時，為了提升操作打擊感，重構了基於 AABB (軸對齊包圍盒) 的碰撞演算法。此外，加入模擬重力加速度和彈性碰撞的簡單物理公式，使小行星漂浮與軌道運作更加逼真。',
+      excerpt: '在開發太空避障小遊戲時，為了提升操作打擊感，重構了基於 AABB (軸對齊包圍盒) 的碰撞演算法。此外，加入模擬重力加速度 and 彈性碰撞的簡單物理公式，使小行星漂浮與軌道運作更加逼真。',
     }
   ];
 
