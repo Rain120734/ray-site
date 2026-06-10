@@ -3,12 +3,9 @@ const activities = [
   { icon: '🤖', title: 'FTC Team Captain', org: 'VIS Mars #32760',
     period: ' - Present',
     desc: 'Led a 10-member team in designing and building competition robots.' },
-  { icon: '🔬', title: 'Science Fair', org: 'VIS Science Department',
+  { icon: '🧬', title: 'iGEM Wet Lab Leader', org: 'VIS iGEM Team',
     period: ' - Present',
-    desc: 'Conducted research on renewable energy solutions.' },
-  { icon: '🔬', title: 'Science', org: 'VIS Science Department',
-    period: ' - Present',
-    desc: 'Conducted research on renewable energy solutions.' },
+    desc: '負責濕實驗室（Wet Lab）的基因組裝、電泳實驗，並參與撰寫了團隊的 Wiki 展示網頁。' },
 ]
 
 export default function Leadership() {

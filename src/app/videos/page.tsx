@@ -17,9 +17,9 @@ type VideoItem = {
 const videos: VideoItem[] = [
   {
     id: "11EQmMm17pUNste46r_hwZwhQ9paujczE",
-    title: "Episode 01:《承載一切》",
-    subtitle: "Season Kickoff & Chassis Build / 賽季起步與底盤開發",
-    description: "記錄了 VIS Mars #32760 新秀戰隊在開發賽季的初次亮相。展示國中生成員們如何共同設計 Mars Rover v1，解決程式碼 Bug，並在摩擦中學會系統合作。",
+    title: "Episode 01:《TO CARRY IT ALL》",
+    subtitle: "Season Highlights / 年度精華",
+    description: "",
     category: "Season Documentary / 年度紀錄片",
     duration: "Season Highlights / 年度精華",
     date: "2026.02",
@@ -27,9 +27,9 @@ const videos: VideoItem[] = [
   },
   {
     id: "1PmHvE1_bU9qKwNLn7h8HZEGlxJOkJGCA",
-    title: "Episode 02:《凝聚力量》",
-    subtitle: "Chinese Taipei Championship (Kaohsiung) / 台灣選拔賽精華（高雄科工館）",
-    description: "2026 年 2 月台灣選拔賽幕後紀實。帶您體驗賽場最前線的緊繃張力，面對機構故障的危急關頭，全隊如何咬牙挺住並勇奪決賽聯盟亞軍。",
+    title: "Episode 02:《HOLDING IT TOGETHER》",
+    subtitle: "Tournament Record / 賽事紀錄",
+    description: "",
     category: "Championship / 選拔賽",
     duration: "Tournament Record / 賽事紀錄",
     date: "2026.02",
@@ -37,9 +37,9 @@ const videos: VideoItem[] = [
   },
   {
     id: "1NwPk3ZJuIAYZL3AX91N6Oe4zU2dfZvtC",
-    title: "Episode 03:《不止於賽》",
-    subtitle: "China - Hong Kong Championship / 香港錦標賽遠征（Lee Wai Lee）",
-    description: "國際舞台的終極試煉。VIS Mars 遠征香港，面對更強大的對手即時調整戰略，並最終抱回決賽聯盟與極具分量的 Inspire Award 二等獎雙重肯定。",
+    title: "Episode 03:《MORE THAN A GAME》",
+    subtitle: "Overseas Tour / 海外遠征",
+    description: "",
     category: "Championship / 錦標賽",
     duration: "Overseas Tour / 海外遠征",
     date: "2026.03",
